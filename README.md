@@ -129,7 +129,7 @@ npm test
 ```
 
 ## Screenshots
-1.![JSON-LD Home Page(admin)](https://github.com/saif580/Shopify-JSON-LD-Generator/assets/29210607/86608756-1b53-4946-b6ec-c2fdbb7c48f2)
+1.JSON-LD Home Page(admin)![JSON-LD Home Page(admin)](https://github.com/saif580/Shopify-JSON-LD-Generator/assets/29210607/86608756-1b53-4946-b6ec-c2fdbb7c48f2)
 2.![store and json-ld(installed)](https://github.com/saif580/Shopify-JSON-LD-Generator/assets/29210607/93b652a6-da03-4b66-b8bc-5fcda1cdf126)
 3.![Pre-filled data of the store](https://github.com/saif580/Shopify-JSON-LD-Generator/assets/29210607/f35f18f6-1b17-4cd3-b389-9ccbdf9c04b7)
 4.![Generated json-ld data](https://github.com/saif580/Shopify-JSON-LD-Generator/assets/29210607/f4f76fdc-da66-4786-aa8d-f881e53e3bfc)

@@ -1,0 +1,1 @@
+# Shopify-JSON-LD-Generator

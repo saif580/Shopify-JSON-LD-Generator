@@ -1,0 +1,29 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+name = "my-test-app"
+client_id = "93f1cf97db547cc5697683efbf4a31ac"
+application_url = "https://6084-106-212-70-110.ngrok-free.app"
+embedded = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "read_products,read_content,read_themes,read_script_tags,read_customers,read_orders"
+
+
+[auth]
+redirect_urls = [
+  "https://6084-106-212-70-110.ngrok-free.app/auth/callback",
+  "https://6084-106-212-70-110.ngrok-free.app/auth/shopify/callback",
+  "https://6084-106-212-70-110.ngrok-free.app/api/auth/callback",
+  "https://6084-106-212-70-110.ngrok-free.app/.shopify/graphiql/auth/callback"
+]
+
+[webhooks]
+api_version = "2023-10"
+
+[pos]
+embedded = false
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "anitquestore123.myshopify.com"

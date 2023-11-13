@@ -91,4 +91,46 @@ client_id = "your-client-id"
 application_url = "https://your-application-url"
 embedded = true
 
-# ... other configuration options
+# .Testing
+The application includes unit tests for individual components and integration tests for testing component interactions. Testing is done using Jest and React Testing Library.
+
+To run tests:
+
+bash
+Copy code
+npm test
+Ngrok Connection
+To expose your local application to the internet using ngrok, follow these steps:
+
+Install ngrok globally:
+
+bash
+Copy code
+npm install -g ngrok
+Start ngrok to tunnel your local application:
+
+bash
+Copy code
+ngrok http port_number
+Copy the URL provided by ngrok and paste it in the shopify.app.toml file:
+
+toml
+Copy code
+# shopify.app.toml
+application_url = "ngrok-generated-URL"
+redirect_urls = [
+  "ngrok-generated-URL/auth/callback",
+  "ngrok-generated-URL/auth/shopify/callback",
+  "ngrok-generated-URL/api/auth/callback",
+  "ngrok-generated-URL/graphiql/auth/callback"
+]
+Push the updated configuration to Shopify:
+
+bash
+Copy code
+npm run shopify app config push
+Start the application with ngrok tunnel URL:
+
+bash
+Copy code
+npm run dev -- --tunnel-url ngrok-generated-URL:port_number

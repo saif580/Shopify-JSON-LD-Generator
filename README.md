@@ -76,6 +76,7 @@ name = "my-test-app"
 client_id = "your-client-id"
 application_url = "https://your-application-url"
 embedded = true
+```
 
 ## Testing
 

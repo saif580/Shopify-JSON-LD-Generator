@@ -1,6 +1,6 @@
 # Shopify JSON-LD Generator
 
-The Shopify JSON-LD Generator is a React application that empowers users to create JSON-LD (JavaScript Object Notation for Linked Data) for a store's structured data. This data enhances the store's visibility in search engine results.
+The Shopify JSON-LD Generator is a Public app (not available on the Shopify store) that empowers users to create JSON-LD (JavaScript Object Notation for Linked Data) for a store's structured data. This data enhances the store's visibility in search engine results.
 
 ## Table of Contents
 

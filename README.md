@@ -33,6 +33,46 @@ To run the Shopify JSON-LD Generator locally, follow these steps:
     npm run dev
     ```
 
+## Ngrok Connection
+
+To expose your local application to the internet using ngrok, follow these steps:
+
+1. Install ngrok globally:
+
+    ```bash
+    npm install -g ngrok
+    ```
+
+2. Start ngrok to tunnel your local application:
+
+    ```bash
+    ngrok http port_number
+    ```
+
+3. Copy the URL provided by ngrok and paste it into the shopify.app.toml file:
+
+    ```bash
+    # shopify.app.toml
+    application_url = "ngrok-generated-URL"
+    redirect_urls = [
+      "ngrok-generated-URL/auth/callback",
+      "ngrok-generated-URL/auth/shopify/callback",
+      "ngrok-generated-URL/api/auth/callback",
+      "ngrok-generated-URL/graphiql/auth/callback"
+    ]
+    ```
+
+4. Push the updated configuration to Shopify:
+
+    ```bash
+    npm run shopify app config push
+    ```
+4. Start the application with the ngrok tunnel URL:
+
+    ```bash
+    npm run dev -- --tunnel-url ngrok-generated-URL:port_number
+    ```
+
 The application will be accessible at http://localhost:3000 in your web browser.
 
 ## Usage

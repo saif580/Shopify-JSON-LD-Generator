@@ -126,8 +126,13 @@ To run tests:
 
 ```bash
 npm test
+```
 
-##Screenshots
+## Screenshots
 1.![json-ld home page](https://github.com/saif580/Shopify-JSON-LD-Generator/assets/29210607/86608756-1b53-4946-b6ec-c2fdbb7c48f2)
-
+![store and json-ld(installed)](https://github.com/saif580/Shopify-JSON-LD-Generator/assets/29210607/93b652a6-da03-4b66-b8bc-5fcda1cdf126)
+![pre filled data of the store](https://github.com/saif580/Shopify-JSON-LD-Generator/assets/29210607/f35f18f6-1b17-4cd3-b389-9ccbdf9c04b7)
+![generated json-ld data](https://github.com/saif580/Shopify-JSON-LD-Generator/assets/29210607/f4f76fdc-da66-4786-aa8d-f881e53e3bfc)
+![json-ld validator](https://github.com/saif580/Shopify-JSON-LD-Generator/assets/29210607/6182d3ed-032e-4be8-ace4-d59ea12814af)
+![editing json  ld](https://github.com/saif580/Shopify-JSON-LD-Generator/assets/29210607/c1df0fe7-fa38-4ffa-9d69-25b86362c36a)
 

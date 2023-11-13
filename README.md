@@ -27,6 +27,7 @@ To run the Shopify JSON-LD Generator locally, follow these steps:
     ```bash
     cd Shopify-JSON-LD-Generator
     npm install
+    ngrok hhtp port_number
     ```
 
 3. Start the application:

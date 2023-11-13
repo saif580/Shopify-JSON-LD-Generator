@@ -127,3 +127,7 @@ To run tests:
 ```bash
 npm test
 
+##Screenshots
+1.![json-ld home page](https://github.com/saif580/Shopify-JSON-LD-Generator/assets/29210607/86608756-1b53-4946-b6ec-c2fdbb7c48f2)
+
+

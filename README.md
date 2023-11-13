@@ -73,7 +73,7 @@ To expose your local application to the internet using ngrok, follow these steps
     npm run dev -- --tunnel-url ngrok-generated-URL:port_number
     ```
 
-The application will be accessible at http://localhost:3000 in your web browser.
+The application will be accessible at the generator URL in your web browser.
 
 ## Usage
 

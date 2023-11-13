@@ -30,10 +30,21 @@ To run the Shopify JSON-LD Generator locally, follow these steps:
     ngrok hhtp port_number
     ```
 
+3. ngrok connection:
+
+    ```bash
+    ngrok hhtp port_number
+    #copy the url provided by ngrok and paste it in shopify.app.toml i.e-application_url = "generated URL";redirect_urls = ["generated URL/auth/callback","generated       
+      URL/auth/shopify/callback","generatedURL/api/auth/callback","generated URL/graphiql/auth/callback"]
+
+    npm run shopify app config push
+    
+    ```
+
 3. Start the application:
 
     ```bash
-    npm start
+    npm run dev -- --tunnel-url generator URL:port_number
     ```
 
 The application will be accessible at http://localhost:3000 in your web browser.

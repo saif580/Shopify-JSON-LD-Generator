@@ -1,4 +1,4 @@
-# Shopify JSON-LD Generator
+![1st product JSON-LD](https://github.com/saif580/Shopify-JSON-LD-Generator/assets/29210607/c996c3d4-3602-491e-ab84-648f63b465f6)# Shopify JSON-LD Generator
 
 The Shopify JSON-LD Generator is a Public app (not available on the Shopify store) that empowers users to create JSON-LD (JavaScript Object Notation for Linked Data) for a store's structured data. This data enhances the store's visibility in search engine results.
 
@@ -135,4 +135,8 @@ npm test
 4. Generated JSON-LD data![Generated json-ld data](https://github.com/saif580/Shopify-JSON-LD-Generator/assets/29210607/f4f76fdc-da66-4786-aa8d-f881e53e3bfc)
 5. JSON-LD validator![JSON-LD validator](https://github.com/saif580/Shopify-JSON-LD-Generator/assets/29210607/6182d3ed-032e-4be8-ace4-d59ea12814af)
 5. Editing JSON-LD![Editing JSON-LD](https://github.com/saif580/Shopify-JSON-LD-Generator/assets/29210607/c1df0fe7-fa38-4ffa-9d69-25b86362c36a)
+6. Add products-![Add product button](https://github.com/saif580/Shopify-JSON-LD-Generator/assets/29210607/482a843d-6c5d-4c44-b2c2-a2716b8578ff)
+7. Adding 1st product-![1st product JSON-LD](https://github.com/saif580/Shopify-JSON-LD-Generator/assets/29210607/a89886f0-3c9e-48a5-9c39-098bd3f302d4)
+8. Adding 2nd product-![2nd product JSON-LD](https://github.com/saif580/Shopify-JSON-LD-Generator/assets/29210607/b4f971bf-e112-4322-a9c1-c4d4f33477b3)
+
 
